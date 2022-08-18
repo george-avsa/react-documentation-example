@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.filterTable {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+}
+.searchInput {
+    width: 50%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.productTable {
+    padding: 5px;
+}
+
+.productTableTitles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marginRight {
+    margin-right: 70px
+}
+
+.productTableItem {
+    margin-top: 5px;
+    width: 100%;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.productCategory {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.stock {
+    color: red;
 }
